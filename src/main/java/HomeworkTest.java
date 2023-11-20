@@ -15,6 +15,7 @@ public class HomeworkTest {
     void testEvenOddNumber() {
         assertTrue(hw.evenOddNumber(10));
         assertFalse(hw.evenOddNumber(9));
+        assertTrue(hw.evenOddNumber(0));
     }
 
     @Test
